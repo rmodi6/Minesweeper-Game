@@ -1,2 +1,2 @@
 language = "java10"
-run = ""
+run = "javac -classpath .:/run_dir/junit-4.12.jar -d . Minesweeper.java MyJButton.java; java -classpath .:/run_dir/junit-4.12.jar Minesweeper"
